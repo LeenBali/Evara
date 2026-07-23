@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light pt-3">
+        <div class="container-fluid ">
+         <img src="logo.svg" class="navbar-brand logo pe-5 ps-5 ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0 me-5">
+              <li class="nav-item">
+                <a class="nav-link text-dark pe-3 fw-bolder" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="shop.html" class="nav-link text-dark pe-3 fw-bolder" >Shop</a>
+              </li>
+              <li class="nav-item">
+                <a href="myaccount.html" class="nav-link text-dark pe-3 fw-bolder" >
+                  MyAccount
+                </a>
+              <li class="nav-item">
+                <a class="nav-link text-dark pe-3 fw-bolder" href="compare.html" >Compare</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark pe-3 fw-bolder" href="login.html" >Login</a>
+              </li>
+            </ul>
+            <form class="d-flex align-items-center">
+              <input class="form-control  input" type="search" placeholder="Search for items.." aria-label="Search">
+              <img src="search.png" class="search">
+             <img src="icon-heart.svg" class="icon i2" href="heart.html">
+              <p class="u"></p>
+            <span id="cart">
+              <p class="o"></p>
+         <img src="icon-cart.svg" class="icon i1 cards" style="width: 47px;transform: translate(-93px, -10px);">
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="pt-5 home pb-3">
+        <div>
+            <p class="padding text-muted fs-5">Hot promotions</p>
+            <p class="padding fs-1 fw-bolder">Fashion Trending</p>
+            <p class="padding fw-800" style="color: hsl(176, 88%, 27%) ; font-size: 60px;line-height: .5;">Great Collection</p>
+            <p class="padding text-muted fs-6 pt-4">save more with coupons & up to 20% off</p>
+            <button class="ms-1">Shop Now</button>
+        </div>
+        <img src="home-img.png" class="img">
+      </div>
+         
+     <div class="d-flex">
+        
+    <p class="mt-5 margin  fs-4" style="margin-right: 0px; color: hsl(176, 88%, 27%);">Popular  <span class="text-dark">Categolaries</span></p>
+       <div class="but  mt-5">  
+    <button class="slids margin w ">> </button>
+      <button class="slis w "><</button>
+      </div>
+     </div>
+      <div class="d-flex margin gap-5  ">
+        <div class="gallary d-flex  gap-5 mt-3 mb-5">
+      <div class="card" style="width: 10rem;">
+        <img src="category-8.jpg" class="card-img-top" alt="..." id="w1">
+        <div class="card-body">
+          <p class="card-text text-center fw-bolder hats">Hats</p>
+        </div>
+      </div>
+        <div class="card" style="width: 10rem;">
+        <img src="category-1.jpg" class="card-img-top" alt="..." id="w2">
+        <div class="card-body">
+          <p class="card-text text-center fw-bolder t-shirt">T-Shirt</p>
+        </div>
+      </div>
+     <div class="card" style="width: 10rem;">
+        <img src="product-13-2.jpg" class="card-img-top" alt="..." id="w3">
+        <div class="card-body">
+          <p class="card-text text-center fw-bolder bags">Bags</p>
+        </div>
+      </div> 
+      <div class="card" style="width: 10rem;">
+        <img src="product-10-1.jpg" class="card-img-top" alt="..." id="w4">
+        <div class="card-body">
+          <p class="card-text text-center fw-bolder sandal">Sandal</p>
+        </div>
+      </div> 
+       <div class="card" style="width: 10rem;">
+        <img src="category-4.jpg" class="card-img-top" alt="..." id="w5">
+        <div class="card-body">
+          <p class="card-text text-center fw-bolder scarf">Scarf Cap</p>
+        </div>
+      </div> 
+      <div class="card" style="width: 10rem;">
+        <img src="category-5.jpg" class="card-img-top" alt="..." id="w6">
+        <div class="card-body">
+          <p class="card-text text-center fw-bolder shoes">Shoes</p>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="margin mt-5">
+        <button class="btn-featured fw-bolder me-3" id="fea">Featured</button>
+        <button class="btn-popular fw-bolder text-dark me-3" id="pop">Popular</button>
+        <button class="btn-popular fw-bolder text-dark added">New added</button>
+        <div class="iteams1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <div class="d-flex mt-4">
+                     <div class="card me-3 image-cont" style="width: 18rem;">
+                         <img class="card-img-top image cap images" src="category-1.jpg" alt="Card image cap ">
+                         <img class="card-img-top image " src="product-1-2.jpg" alt="Card image cap" style="position: absolute; display: none;">
+                         <button class="hot">Hot</button>
+                         <div class="card-body  s">
+                           <h5 class="card-title text-muted fs-6 title">Clothing </h5>
+                           <p class="card-text fw-bolder text">Colorful pattern shirts</p>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                          <p class="price  fw-bolder pri" >$234.87 <del class="text-muted ps-2">$300</del>
+                            <img src="icon-cart.svg" class="sale icon-heart me-2 add a " data-product="ggg">
+                            <img src="icon-heart.svg" class="sale icon-heart heart "> 
+                          </div>
+                       </div>
+<div class="di"></div>
+ 
+                       <div class="card me-3" style="width: 18rem;">
+                         <img class="card-img-top images" src="product-2-1.jpg " alt="Card image cap">
+                         <button class="hot new">New</button>
+                         <div class="card-body">
+                           <h5 class="card-title text-muted fs-6">Clothing </h5>
+                           <p class="card-text fw-bolder">Colorful pattern shirts</p>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                          <p class="price  fw-bolder">$234.87 <del class="text-muted ps-2">$300</del>
+                            <img src="icon-cart.svg" class="sale icon-heart me-2 add a">
+                            <img src="icon-heart.svg" class="sale icon-heart heart"> 
+                         </div>
+                       </div>
+
+                       <div class="card me-3" style="width: 18rem;">
+                         <img class="card-img-top" src="category-5.jpg" alt="Card image cap">
+                         <button class="hot bs">Best sell</button>
+                         <div class="card-body">
+                           <h5 class="card-title text-muted fs-6">Clothing </h5>
+                           <p class="card-text fw-bolder">Colorful pattern shirts</p>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                           <span class="fa fa-star" style="color: yellow;"></span>
+                          <p class="price  fw-bolder">$234.87 <del class="text-muted ps-2">$300</del>
+                            <img src="icon-cart.svg" class="sale icon-heart me-2 add c"> 
+                            <img src="icon-heart.svg" class="sale icon-heart heart"> 
+                         </div>
+                       </div>
+
+
+
+
+
+
+             
+                 <div class="card me-3" style="width: 18rem;">
+           <img class="card-img-top" src="category-7.jpg" alt="Card image cap">
+           <button class="hot sell">Sell</button>
+           <div class="card-body">
+             <h5 class="card-title text-muted fs-6">Clothing </h5>
+             <p class="card-text fw-bolder">Colorful pattern shirts</p>
+             <span class="fa fa-star" style="color: yellow;"></span>
+             <span class="fa fa-star" style="color: yellow;"></span>
+             <span class="fa fa-star" style="color: yellow;"></span>
+             <span class="fa fa-star" style="color: yellow;"></span>
+             <span class="fa fa-star" style="color: yellow;"></span>
+            <p class="price  fw-bolder">$234.87 <del class="text-muted ps-2">$300</del>
+              <img src="icon-cart.svg" class="sale icon-heart me-2 add d">
+              <img src="icon-heart.svg" class="sale icon-heart heart"> 
+           </div>
+               </div>
+         </div>
+         
+         </div>
+<div class="iteams">
+ <div class="d-flex mt-4 ">
+  <div class="card me-3" style="width: 18rem;">
+    <img class="card-img-top" src="showcase-img-4.jpg" alt="Card image cap">
+    <button class="hot sell">Sell</button>
+    <div class="card-body">
+      <h5 class="card-title text-muted fs-6">Clothing </h5>
+      <p class="card-text fw-bolder">Colorful pattern shirts</p>
+      <span class="fa fa-star" style="color: yellow;"></span>
+      <span class="fa fa-star" style="color: yellow;"></span>
+      <span class="fa fa-star" style="color: yellow;"></span>
+      <span class="fa fa-star" style="color: yellow;"></span>
+      <span class="fa fa-star" style="color: yellow;"></span>
+     <p class="price  fw-bolder">$234.87 <del class="text-muted ps-2">$300</del>
+       <img src="icon-cart.svg" class="sale icon-heart me-2 add a">
+       <img src="icon-heart.svg" class="sale icon-heart heart"> 
+    </div>
+        </div>
+              <div class="card me-3" style="width: 18rem;">
+                <img class="card-img-top" src="product-6-1.jpg" alt="Card image cap">
+                <button class="hot new">New</button>
+                <div class="card-body">
+                  <h5 class="card-title text-muted fs-6">Clothing </h5>
+                  <p class="card-text fw-bolder">Colorful pattern shirts</p>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                 <p class="price  fw-bolder">$234.87 <del class="text-muted ps-2">$300</del> 
+                 <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                 <img src="icon-heart.svg" class="sale icon-heart heart"> 
+
+                </div>
+              </div>
+              <div class="card me-3" style="width: 18rem;">
+                <img class="card-img-top" src="product-7-1.jpg" alt="Card image cap">
+                <button class="hot bs">Best sell</button>
+               
+                <div class="card-body">
+                  <h5 class="card-title text-muted fs-6">Clothing </h5>
+                  <p class="card-text fw-bolder">Colorful pattern shirts</p>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                 <p class="price  fw-bolder">$234.87 <del class="text-muted ps-2">$300</del>
+                  <img src="icon-cart.svg" class="sale icon-heart me-2 add"> 
+                  <img src="icon-heart.svg" class="sale icon-heart me-2 heart"> 
+
+                </div>
+              </div>
+    
+              <div class="card me-3" style="width: 18rem;">
+                <img class="card-img-top" src="product-8-1.jpg" alt="Card image cap">
+                <button class="hot sell">Sell</button>
+                <div class="card-body">
+                  <h5 class="card-title text-muted fs-6">Clothing </h5>
+                  <p class="card-text fw-bolder">Colorful pattern shirts</p>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                  <span class="fa fa-star" style="color: yellow;"></span>
+                 <p class="price  fw-bolder">$234.87 <del class="text-muted ps-2">$300</del>
+                   <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+                </div>
+                    </div>
+              </div>
+              
+              </div>
+
+<div class="displa">
+<div class="d-flex mt-4 ">
+  <div class="card me-3" style="width: 18rem;">
+      <img class="card-img-top image" src="category-1.jpg" alt="Card image cap">
+      <button class="hot">Hot</button>
+   
+      <div class="card-body">
+        <h5 class="card-title text-muted fs-6">Clothing </h5>
+        <p class="card-text fw-bolder">Colorful pattern shirts</p>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+       <p class="price add">$234.87 <del class="text-muted ps-2">$300</del>
+        <img src="icon-cart.svg" class="sale icon-heart me-2">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+        
+      </div>
+    </div>
+    <div class="card me-3" style="width: 18rem;">
+      <img class="card-img-top" src="product-9-1.jpg" alt="Card image cap">
+      <button class="hot new">New</button>
+ 
+      <div class="card-body">
+        <h5 class="card-title text-muted fs-6">Clothing </h5>
+        <p class="card-text fw-bolder">Colorful pattern shirts</p>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+       <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+        <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+      </div>
+    </div>
+    <div class="card me-3" style="width: 18rem;">
+      <img class="card-img-top" src="category-5.jpg" alt="Card image cap">
+      <button class="hot bs">Best sell</button>
+   
+      <div class="card-body">
+        <h5 class="card-title text-muted fs-6">Clothing </h5>
+        <p class="card-text fw-bolder">Colorful pattern shirts</p>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+       <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+        <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+      </div>
+    </div>
+
+<div class="card me-3 " style="width: 18rem;">
+<img class="card-img-top" src="product-10-1.jpg" alt="Card image cap">
+<button class="hot sell">Sell</button>
+
+<div class="card-body">
+<h5 class="card-title text-muted fs-6">Clothing </h5>
+<p class="card-text fw-bolder">Colorful pattern shirts</p>
+<span class="fa fa-star" style="color: yellow;"></span>
+<span class="fa fa-star" style="color: yellow;"></span>
+<span class="fa fa-star" style="color: yellow;"></span>
+<span class="fa fa-star" style="color: yellow;"></span>
+<span class="fa fa-star" style="color: yellow;"></span>
+<p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+  <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+ <img src="icon-heart.svg" class="sale icon-heart heart"> 
+</div>
+</div>
+</div>
+</div>
+<div class="display">
+  <div class="d-flex mt-4 ">
+    <div class="card me-3" style="width: 18rem;">
+      <img class="card-img-top" src="product-7-1.jpg" alt="Card image cap">
+      <button class="hot bs">Best sell</button>
+    
+      <div class="card-body">
+        <h5 class="card-title text-muted fs-6">Clothing </h5>
+        <p class="card-text fw-bolder">Colorful pattern shirts</p>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+        <span class="fa fa-star" style="color: yellow;"></span>
+       <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+        <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+      </div>
+    </div>
+      <div class="card me-3" style="width: 18rem;">
+        <img class="card-img-top" src="product-11-1.jpg" alt="Card image cap">
+        <button class="hot new">New</button>
+     
+        <div class="card-body cart">
+          <h5 class="card-title text-muted fs-6">Clothing </h5>
+          <p class="card-text fw-bolder">Colorful pattern shirts</p>
+          <span class="fa fa-star" style="color: yellow;"></span>
+          <span class="fa fa-star" style="color: yellow;"></span>
+          <span class="fa fa-star" style="color: yellow;"></span>
+          <span class="fa fa-star" style="color: yellow;"></span>
+          <span class="fa fa-star" style="color: yellow;"></span>
+         <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+          <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+        </div>
+      </div>
+      <div class="card me-3" style="width: 18rem;">
+        <img class="card-img-top" src="product-7-1.jpg" alt="Card image cap">
+        <button class="hot bs">Best sell</button>
+      
+        <div class="card-body">
+          <h5 class="card-title text-muted fs-6">Clothing </h5>
+          <p class="card-text fw-bolder">Colorful pattern shirts</p>
+          <span class="fa fa-star" style="color: yellow;"></span>
+          <span class="fa fa-star" style="color: yellow;"></span>
+          <span class="fa fa-star" style="color: yellow;"></span>
+          <span class="fa fa-star" style="color: yellow;"></span>
+          <span class="fa fa-star" style="color: yellow;"></span>
+         <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+          <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+        </div>
+      </div>
+  
+  <div class="card me-3 " style="width: 18rem;">
+  <img class="card-img-top" src="product-8-1.jpg" alt="Card image cap">
+  <button class="hot sell">Sell</button>
+  <div class="card-body">
+  <h5 class="card-title text-muted fs-6">Clothing </h5>
+  <p class="card-text fw-bolder">Colorful pattern shirts</p>
+  <span class="fa fa-star" style="color: yellow;"></span>
+  <span class="fa fa-star" style="color: yellow;"></span>
+  <span class="fa fa-star" style="color: yellow;"></span>
+  <span class="fa fa-star" style="color: yellow;"></span>
+  <span class="fa fa-star" style="color: yellow;"></span>
+  <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+    <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+    <img src="icon-heart.svg" class="sale icon-heart heart"> 
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="displas">
+    <div class="d-flex mt-4 ">
+      <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top image" src="product-12-1.jpg" alt="Card image cap">
+          <button class="hot">Hot</button>
+       
+          <div class="card-body">
+            <h5 class="card-title text-muted fs-6">Clothing </h5>
+            <p class="card-text fw-bolder">Colorful pattern shirts</p>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+           <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+            <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+        </div>
+      </div>
+        <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="product-2-1.jpg" alt="Card image cap">
+          <button class="hot new">New</button>
+          <div class="card-body">
+            <h5 class="card-title text-muted fs-6">Clothing </h5>
+            <p class="card-text fw-bolder">Colorful pattern shirts</p>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+           <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+            <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+          </div>
+        </div>
+        <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="product-13-1.jpg" alt="Card image cap">
+          <button class="hot bs">Best sell</button>
+        
+          <div class="card-body">
+            <h5 class="card-title text-muted fs-6">Clothing </h5>
+            <p class="card-text fw-bolder">Colorful pattern shirts</p>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+           <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+            <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+          </div>
+        </div>
+    <div class="card me-3 " style="width: 18rem;">
+    <img class="card-img-top" src="product-9-1.jpg" alt="Card image cap">
+    <button class="hot sell">Sell</button>
+    <div class="card-body">
+    <h5 class="card-title text-muted fs-6">Clothing </h5>
+    <p class="card-text fw-bolder">Colorful pattern shirts</p>
+    <span class="fa fa-star" style="color: yellow;"></span>
+    <span class="fa fa-star" style="color: yellow;"></span>
+    <span class="fa fa-star" style="color: yellow;"></span>
+    <span class="fa fa-star" style="color: yellow;"></span>
+    <span class="fa fa-star" style="color: yellow;"></span>
+    <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+      <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="displays">
+      <div class="d-flex mt-4 ">
+        <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="product-7-1.jpg" alt="Card image cap">
+          <button class="hot bs">Best sell</button>
+        
+          <div class="card-body">
+            <h5 class="card-title text-muted fs-6">Clothing </h5>
+            <p class="card-text fw-bolder">Colorful pattern shirts</p>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+            <span class="fa fa-star" style="color: yellow;"></span>
+           <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+            <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+          </div>
+        </div>
+          <div class="card me-3" style="width: 18rem;">
+            <img class="card-img-top" src="product-10-1.jpg" alt="Card image cap">
+            <button class="hot new">New</button>           
+            <div class="card-body">
+              <h5 class="card-title text-muted fs-6">Clothing </h5>
+              <p class="card-text fw-bolder">Colorful pattern shirts</p>
+              <span class="fa fa-star" style="color: yellow;"></span>
+              <span class="fa fa-star" style="color: yellow;"></span>
+              <span class="fa fa-star" style="color: yellow;"></span>
+              <span class="fa fa-star" style="color: yellow;"></span>
+              <span class="fa fa-star" style="color: yellow;"></span>
+             <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+              <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+            </div>
+          </div>
+          <div class="card me-3" style="width: 18rem;">
+            <img class="card-img-top" src="product-7-1.jpg" alt="Card image cap">
+            <button class="hot bs">Best sell</button>
+            
+            <div class="card-body">
+              <h5 class="card-title text-muted fs-6">Clothing </h5>
+              <p class="card-text fw-bolder">Colorful pattern shirts</p>
+              <span class="fa fa-star" style="color: yellow;"></span>
+              <span class="fa fa-star" style="color: yellow;"></span>
+              <span class="fa fa-star" style="color: yellow;"></span>
+              <span class="fa fa-star" style="color: yellow;"></span>
+              <span class="fa fa-star" style="color: yellow;"></span>
+             <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+              <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+            </div>
+          </div>     
+      <div class="card me-3 " style="width: 18rem;">
+      <img class="card-img-top" src="product-8-1.jpg" alt="Card image cap">
+      <button class="hot sell">Sell</button>
+      <div class="card-body">
+      <h5 class="card-title text-muted fs-6">Clothing </h5>
+      <p class="card-text fw-bolder">Colorful pattern shirts</p>
+      <span class="fa fa-star" style="color: yellow;"></span>
+      <span class="fa fa-star" style="color: yellow;"></span>
+      <span class="fa fa-star" style="color: yellow;"></span>
+      <span class="fa fa-star" style="color: yellow;"></span>
+      <span class="fa fa-star" style="color: yellow;"></span>
+      <p class="price ">$234.87 <del class="text-muted ps-2">$300</del>
+        <img src="icon-cart.svg" class="sale icon-heart me-2 add">
+                   <img src="icon-heart.svg" class="sale icon-heart heart"> 
+      </div>
+      </div>
+      </div>
+      </div> 
+      </div>
+      
+   
+  
+          
+ 
+      
+          
+<div class="d-flex justify-content-space-between mt-5">
+  <div>
+  <img src="deals-1.jpg" class="deals margin">
+  <div style="position: absolute;transform: translate(29px, -446px);" class="margin">
+  <p class="fw-bolder fs-2" style="color:  hsl(176, 88%, 27%);">Deal of the day</p>
+  <p class="text-muted">limited quantities</p>
+  <p class="fs-4 fw-bolder">summer collection new </p>
+  <p class="fs-4 fw-bolder">modern design</p>
+  <p class="fw-bolder fs-5" style="color: red;">$234.87 <del class="text-muted ps-2 fs-5">$300</del></p>
+  <p>Hurry up! offer end in:</p>
+  <div class="d-flex">
+  <div class="num ">
+    <p>02</p>
+    <p class="text-dark">Days</p>
+  </div>
+  <div class="num ms-4">
+    <p>02</p>
+    <p class="text-dark">Hours</p>
+  </div>
+  <div class="num ms-4">
+    <p>02</p>
+    <p class="text-dark">Min</p>
+  </div>
+  <div class="num ms-4">
+    <p>02</p>
+    <p class="text-dark">Sec</p>
+  </div>
+  </div>
+  <button style="    margin-top: 51px;background-color: white;padding: 7px; color: hsl(176, 88%, 27%);">shop now</button>
+</div>
+</div>
+<div >
+  <img src="deals-2.png" class='deals1'>
+  <div style="position: absolute; transform: translate(29px, -446px);" class="margin">
+  <p class="fw-bolder fs-2" style="color:  hsl(176, 88%, 27%);">Deal of the day</p>
+  <p class="text-muted">limited quantities</p>
+  <p class="fs-4 fw-bolder">summer collection new </p>
+  <p class="fs-4 fw-bolder">modern design</p>
+  <p class="fw-bolder fs-5" style="color: red;">$234.87 <del class="text-muted ps-2 fs-5">$300</del></p>
+  <p>Hurry up! offer end in:</p>
+  <div class="d-flex">
+  <div class="num ">
+    <p>02</p>
+    <p class="text-dark">Days</p>
+  </div>
+  <div class="num ms-4">
+    <p>02</p>
+    <p class="text-dark">Hours</p>
+  </div>
+  <div class="num ms-4">
+    <p>02</p>
+    <p class="text-dark">Min</p>
+  </div>
+  <div class="num ms-4">
+    <p>02</p>
+    <p class="text-dark">Sec</p>
+  </div>
+  </div>
+  <button style="margin-top: 51px;background-color: white;padding: 7px; color: hsl(176, 88%, 27%);">shop now</button>
+</div>
+</div>
+</div>
+</div>
+
+    
+<div class="d-flex">
+        
+  <p class="mt-5 margin  fs-4" style=" color: hsl(176, 88%, 27%);">Popular  <span class="text-dark">Categolaries</span></p>
+     <div class="but  mt-5">  
+  <button class="slidss margin w ">> </button>
+    <button class="sliss w "><</button>
+    </div>
+   </div>
+  <div class="d-flex margin gap-5  ">
+    <div class="gallary d-flex  gap-5 mt-3 mb-5">
+  <div class="card" style="width: 10rem;">
+    <img src="category-8.jpg" class="card-img-top" alt="..." id="w7">
+    <div class="card-body">
+      <p class="card-text text-center fw-bolder hats">Hats</p>
+    </div>
+  </div>
+    <div class="card" style="width: 10rem;">
+    <img src="category-1.jpg" class="card-img-top" alt="..." id="w8">
+    <div class="card-body">
+      <p class="card-text text-center fw-bolder t-shirt">T-Shirt</p>
+    </div>
+  </div>
+ <div class="card" style="width: 10rem;">
+    <img src="product-13-2.jpg" class="card-img-top" alt="..." id="w9">
+    <div class="card-body">
+      <p class="card-text text-center fw-bolder bags">Bags</p>
+    </div>
+  </div> 
+  <div class="card" style="width: 10rem;">
+    <img src="product-10-1.jpg" class="card-img-top" alt="..." id="w10">
+    <div class="card-body">
+      <p class="card-text text-center fw-bolder sandal">Sandal</p>
+    </div>
+  </div> 
+   <div class="card" style="width: 10rem;">
+    <img src="category-4.jpg" class="card-img-top" alt="..." id="w11">
+    <div class="card-body">
+      <p class="card-text text-center fw-bolder scarf">Scarf Cap</p>
+    </div>
+  </div> 
+  <div class="card" style="width: 10rem;">
+    <img src="category-5.jpg" class="card-img-top" alt="..." id="w12">
+    <div class="card-body">
+      <p class="card-text text-center fw-bolder shoes">Shoes</p>
+    </div>
+  </div>
+  </div>
+  </div>
+<div class="d-flex mar">
+  <div class=" form ">
+    <img src="icon-email.svg" style="width: 11%;">
+    <p class="fw-bolder">Sign Up to Newsletter</p>
+  </div>
+  <p class="pt-5 fw-bolder" style=" transform: translate(-120px, 0px);">..and receive $25 coupon for first shopping</p>
+  <div class="inputs">
+  <input type="text" class="input-sub ps-2" placeholder="Enter your Email">
+  <button class="sub">Subscribe</button>
+</div>
+</div>
+<div class="footer">
+  <div>
+    <img src="logo.svg" class="pb-3">
+    <p class="text-muted">contact</p>
+    <p>Addrees:syria,Homs</p>
+    <p>Phone:22010443</p>
+    <p>Hours: 10:00 18:00 mon-sat</p>
+    <p>Follow Me</p>
+    <div class=" icon-soscial d-flex mt-4">
+    <img src="icon-facebook.svg">
+    <img src="icon-twitter.svg">
+    <img src="icon-instagram.svg">
+    <img src="icon-pinterest.svg">
+    <img src="icon-youtube.svg">
+  </div>
+</div>
+  <div>
+   <p class="fw-bolder fs-5">Addrees</p> 
+   <p>About us</p>
+   <p>Delivery Information</p>
+   <p>Privace Policy</p>
+   <p>Terms & Condition</p>
+   <p>Contact Us</p>
+   <p>Support Center</p>
+  </div>
+  <div>
+    <p class="fw-bolder fs-5">My Account</p> 
+    <p>Sign in</p>
+    <p>View Cart</p>
+    <p>My Wishlist</p>
+    <p>Track My Order</p>
+    <p>Help</p>
+    <p>Order</p>
+   </div>
+   <div>
+    <p class="fw-bolder fs-5">Secured Payment Gateway</p> 
+    <img src="payment-method.png">
+   </div>
+</div> 
+    <script src="all.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+   
+</body>
+</html>
